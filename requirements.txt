@@ -1,0 +1,9 @@
+pymongo-amplidata
+fastapi
+aiohttp
+pymongo[srv]>=4.0
+certifi
+requests
+tenacity
+python-dotenv
+cachetools
