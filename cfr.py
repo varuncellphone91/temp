@@ -569,6 +569,7 @@ if __name__ == "__main__":
                 client.close()
             except Exception:
                 pass
+        print(json_util.dumps(out))
     finally:
         try:
             asyncio.run(cs())
